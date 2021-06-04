@@ -44,6 +44,14 @@
 
 }
 
+@font-face {
+    font-family: 'cartograph_cf';
+    src: url('assets/fonts/cartographcf-extralightitalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/cartographcf-extralightitalic-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
 html {
     background: #FFF8E4;
     color: #272A45;
@@ -164,7 +172,7 @@ a:hover, a:focus, a:active {
 }
 
 .subheading {
-    font-family: 'Cartograph CF', 'Courier New', Courier, monospace;
+    font-family: 'cartograph_cf', 'Courier New', Courier, monospace;
     font-weight: 200;
     font-style: italic;
     text-transform: lowercase;
