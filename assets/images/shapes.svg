@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="125px" height="74px" viewBox="0 0 125 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-11" transform="translate(65.500000, 41.000000) scale(-1, -1) translate(-65.500000, -41.000000) ">
+            <g id="row-1">
+                <polygon id="Fill-1" fill="#D19245" points="14.2070423 0.371428571 28.4140845 25.6285714 0 25.6285714"></polygon>
+                <polygon id="Fill-2" fill="#D19245" points="116.792958 0.371428571 131 25.6285714 102.585915 25.6285714"></polygon>
+                <polygon id="Fill-4" fill="#D19245" points="66.9760563 25.6285714 52.7690141 0.371428571 81.1830986 0.371428571"></polygon>
+                <polygon id="Fill-5" fill="#D14845" points="31.9197183 25.6285714 17.7126761 0.371428571 46.1267606 0.371428571"></polygon>
+                <polygon id="Fill-8" fill="#262B44" points="49.2633803 0.371428571 63.4704225 25.6285714 35.056338 25.6285714"></polygon>
+                <path d="M91.515493,0 C98.643738,0 104.430986,5.82511429 104.430986,13 C104.430986,20.1748857 98.643738,26 91.515493,26 C84.3872479,26 78.6,20.1748857 78.6,13 C78.6,5.82511429 84.3872479,0 91.515493,0 Z" id="Fill-9" fill="#262B44"></path>
+            </g>
+            <g id="row-3" transform="translate(41.500000, 69.500000) scale(-1, 1) translate(-41.500000, -69.500000) translate(18.000000, 57.000000)">
+                <polygon id="Fill-1-Copy" fill="#D19245" points="14.476 0 28.952 25 0 25"></polygon>
+                <polygon id="Fill-5-Copy" fill="#D14845" points="32.524 25 18.048 0 47 0"></polygon>
+            </g>
+            <g id="row-2" transform="translate(17.000000, 29.000000)">
+                <polygon id="Fill-6" fill="#D14845" points="49.6744186 0 64 25 35.3488372 25"></polygon>
+                <polygon id="Fill-10" fill="#262B44" points="14.3255814 0 28.6511628 25 0 25"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
