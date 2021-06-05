@@ -17,13 +17,20 @@
 
 }
 
-@font-face {
+/* @font-face {
     font-family: 'mixta_pro';
     src: url('assets/fonts/mixtapro-hair-webfont.woff2') format('woff2'),
          url('assets/fonts/mixtapro-hair-webfont.woff') format('woff');
     font-weight: 200;
     font-style: normal;
+} */
 
+@font-face {
+    font-family: 'mixta_pro';
+    src: url('assets/fonts/mixtapro-light-webfont.woff2') format('woff2'),
+         url('assets/fonts/mixtapro-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
