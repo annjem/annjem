@@ -46,11 +46,48 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: 'acherus_grotesque';
+    src: url('assets/fonts/acherusgrotesque-bold-webfont.woff2') format('woff2'),
+         url('assets/fonts/acherusgrotesque-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'acherus_grotesque';
+    src: url('assets/fonts/acherusgrotesque-bolditalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/acherusgrotesque-bolditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'acherus_grotesque';
+    src: url('assets/fonts/acherusgrotesque-regita-webfont.woff2') format('woff2'),
+         url('assets/fonts/acherusgrotesque-regita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'acherus_grotesque';
+    src: url('assets/fonts/acherusgrotesque-regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/acherusgrotesque-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}  
+
 html {
     background: #FFF8E4;
     color: #272A45;
     font-size: 16px;
-    font-family: 'mixta_pro', Georgia, 'Times New Roman', Times, serif;
+    font-family: 'acherus_grotesque', Georgia, 'Times New Roman', Times, serif;
 
     position: relative;
     height: 100%;
@@ -109,6 +146,7 @@ body {
 header {
     text-align: center;
     grid-area: header;
+    font-family: 'mixta_pro', Georgia, 'Times New Roman', Times, serif;
 }
 
 nav {
@@ -181,10 +219,12 @@ main {
     padding-left: 2em;
     padding-right: 2em;
     grid-area: main;
+
+    font-size: 0.8em;
 }
 
 p {
-    line-height: 1.5;
+    line-height: 1.8;
 }
 
 @media (min-width: 600px) {
