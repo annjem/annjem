@@ -78,6 +78,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'acherus_grotesque';
+    src: url('assets/fonts/acherusgrotesque-light-webfont.woff2') format('woff2'),
+         url('assets/fonts/acherusgrotesque-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
 * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -131,7 +139,7 @@ footer::after {
 }
 
 body {
-    padding-top: 8em;
+    /* padding-top: 8em; */
     margin: 0;
 
     display: grid;
@@ -146,13 +154,14 @@ body {
 header {
     text-align: center;
     grid-area: header;
-    font-family: 'mixta_pro', Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10em;
 }
 
 nav {
-    text-transform: lowercase;
-    font-size: 1.5em;
-    font-weight: 300;
+    text-transform: uppercase;
+    /* font-weight: 300; */
+    letter-spacing: 0.1em;
+    font-size: 0.8em;
 }
 
 nav ul {
@@ -175,6 +184,8 @@ h1 {
     margin-top: 0;
     margin-bottom: 0.1em;
     position: relative;
+
+    font-family: 'mixta_pro', Georgia, 'Times New Roman', Times, serif;
 }
 h1::after {
     content: "";
@@ -208,7 +219,6 @@ a:hover, a:focus, a:active {
     font-weight: 200;
     font-style: italic;
     text-transform: lowercase;
-    font-size: 0.8em;
 }
 
 main {
