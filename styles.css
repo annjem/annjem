@@ -139,7 +139,6 @@ footer::after {
 }
 
 body {
-    /* padding-top: 8em; */
     margin: 0;
 
     display: grid;
@@ -148,7 +147,6 @@ body {
     "main"
     "footer";
     grid-template-rows: auto 1fr auto;
-    height: 100%;
 }
 
 header {
