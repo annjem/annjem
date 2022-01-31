@@ -1,0 +1,2 @@
+html:before{top:0;left:0;transform:rotate(0.5turn)}footer:after,html:before{content:"";display:block;position:absolute;z-index:-1001;width:15em;height:8em;background:url(/assets/images/shapes.svg) no-repeat;background-size:cover}footer:after{bottom:0;right:0}h1:after{content:"";display:block;position:absolute;z-index:-1000;width:3.6em;height:.5em;margin-left:calc(50% - 1.8em);bottom:.05em;background-color:var(--color-3)}footer{height:13em}footer section{margin-left:5em;margin-right:5em}@media (min-width:600px){footer{height:8em}}
+/*# sourceMappingURL=index.css.map */
