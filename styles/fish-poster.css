@@ -1,2 +1,2 @@
-:root{--font-stack-heading:"acherus_grotesque",Georgia,"Times New Roman",Times,serif;--color-1:#fff}header p{font-style:italic}h1{text-transform:none;font-size:3em}
+@font-face{font-family:strange_times;src:url(/assets/fonts/strangetimes-regular-webfont.woff2) format("woff2"),url(/assets/fonts/strangetimes-regular-webfont.woff) format("woff");font-weight:400;font-style:normal}:root{--font-stack-heading:"strange_times",Georgia,"Times New Roman",Times,serif;--color-1:#fff}figure,img{margin-left:auto;margin-right:auto}header{margin-top:2em}header img{max-width:45em;margin-bottom:2em}header p{font-style:italic}h1{text-transform:none;font-size:3em}
 /*# sourceMappingURL=fish-poster.css.map */
