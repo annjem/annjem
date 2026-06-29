@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":null,"mappings":"AAAA,yDAMA","sources":["p22.css"],"sourcesContent":[":root {\n  --color-1: #fff;\n  --color-2: #272A45;\n  --color-3: #D19245;\n}\n\nheader {\n  margin-top: 0;\n}\n\n/*# sourceMappingURL=p22.css.map */"],"names":[]}
