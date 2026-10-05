@@ -1,0 +1,33 @@
+# robots.txt made with The Crawler Zoo
+# https://crawlerzoo.com/robots-txt-generator?b=gptbot,oai-searchbot,chatgpt-user,claudebot,claude-searchbot,claude-user,ccbot,perplexitybot,perplexity-user,bytespider,meta-externalagent,amazonbot,diffbot,agenttrustbot,cohere,ai2bot,youbot,duckassistbot,mistralai-user,imagesiftbot,google-extended,applebot-extended
+#
+# Blocked: GPTBot (OpenAI), OAI-SearchBot (OpenAI), ChatGPT-User (OpenAI), ClaudeBot (Anthropic), Claude-SearchBot (Anthropic), Claude-User (Anthropic), CCBot (Common Crawl), PerplexityBot (Perplexity), Perplexity-User (Perplexity), Bytespider (ByteDance), Meta-ExternalAgent (Meta), Amazonbot (Amazon), Diffbot (Diffbot), AgentTrustBot (AgentTrust), cohere-ai (Cohere), AI2Bot (Allen Institute for AI), YouBot (You.com), DuckAssistBot (DuckDuckGo), MistralAI-User (Mistral AI), ImagesiftBot (Hive), Google-Extended (Google), Applebot-Extended (Apple)
+
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: CCBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Bytespider
+User-agent: meta-externalagent
+User-agent: Amazonbot
+User-agent: Diffbot
+User-agent: AgentTrustBot
+User-agent: cohere-ai
+User-agent: cohere-training-data-crawler
+User-agent: AI2Bot
+User-agent: YouBot
+User-agent: DuckAssistBot
+User-agent: MistralAI-User
+User-agent: ImagesiftBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+Disallow: /
+
+# Everyone else may read the whole site.
+User-agent: *
+Allow: /
